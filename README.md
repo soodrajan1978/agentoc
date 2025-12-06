@@ -1,0 +1,26 @@
+Basic pre-requisites for running the demo python code for each module:
+1. Please install Python...version 3.12 (i am using 3.12.6)
+   If you are NOT a experienced python user, HAVE ONLY ONE VERSION OF PYTHON
+2. Install VS Code
+3. Always create a virutal environment for an application.
+
+
+Steps to create a virtual environment, activate it and install the python packages in the new environment.
+At the command prompt:
+1. Change the current directory to the directory of your application (e.g. cd c:\demo1)
+	All the following steps have to be run in this application directory.
+
+2. Check the python version:
+		python --version
+   It should be 3.12.x
+
+3. Create the virtual environment
+		python -m venv env1
+   This will create a virtual environment under your application directory (check if c:\demo1\env1 is created)
+
+4. Activate the new environment
+		scripts\env1\activate
+
+5. Install the python packages in this new environment
+		pip install -r requirements.txt
+   This will install all the python packages mentioned in requirements.txt in the environment env1.
